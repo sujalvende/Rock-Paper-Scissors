@@ -17,7 +17,7 @@ let compChoice = "";
 
 const choices = document.querySelectorAll(".choice");
 
-function getComputerChoise() {
+function getComputerchoice() {
     compChoice = allChoices[Math.floor(Math.random()*3)];
 }
 
@@ -26,7 +26,7 @@ choices.forEach((choice) => {
 
         userChoice = choice.id;
 
-        getComputerChoise();
+        getComputerchoice();
 
         updateScore();
     });
