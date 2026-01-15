@@ -57,8 +57,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
-    margin-top: 6rem;
+    gap: min(15rem,25vw);
+    margin-top: min(6rem, 10vw);
 }
 
 .score {
@@ -86,12 +86,12 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: min(3rem, 6vw);
 }
 
 .msg-container p {
     display: inline;
-    font-size: 1.5rem;
+    font-size: min(2rem, 5vw);
     font-weight: bold;
     background-color: #000000;
     color: #fff;
