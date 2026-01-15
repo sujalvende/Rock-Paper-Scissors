@@ -6,10 +6,12 @@
 
 h1 {
     background-color: #081b31;
+    font-size: min(3rem, 6vw);
     color: #fff;
-    height: 5rem;
+    height: min(5rem, 8vw);
     text-align: center;
-    line-height: 5rem;
+    justify-items: center;
+    align-content: center;
 }
 
 .choices {
@@ -71,12 +73,12 @@ img {
 }
 
 .score p:first-child {
-    font-size: 2rem;
+    font-size: min(2rem, 5vw);
     font-weight: bold;
 }
 
 .score p:last-child {
-    font-size: 1.5rem;
+    font-size: min(2rem, 5vw);
     font-weight: bold;
 }  
 
