@@ -18,7 +18,7 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     /* gap: min(2rem, 4vw); */
-    margin-top: min(6rem, 10vw);
+    margin-top: min(6rem, 9vw);
 }
 
 .choice {
@@ -59,7 +59,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: min(15rem,25vw);
-    margin-top: min(6rem, 10vw);
+    margin-top: min(5rem, 9vw);
 }
 
 .score {
@@ -87,7 +87,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: min(3rem, 6vw);
+    margin-top: min(2.5rem, 6vw);
 }
 
 .msg-container p {
@@ -99,7 +99,7 @@ img {
     border-radius: 1rem;
     text-align: center;
     line-height: 40px;
-    padding: 2vw;
+    padding: 1.5vw;
 }
 
 
